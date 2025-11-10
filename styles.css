@@ -1,2 +1,59 @@
 
 /* Your CSS Code here. */
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 30px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #0078D7;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #444;
+    }
+
+    ol {
+      width: 60%;
+      margin: 0 auto;
+      padding-left: 20px;
+    }
+
+    ol li {
+      margin-bottom: 20px;
+      list-style-position: inside;
+      text-align: center;
+    }
+
+    img, video, audio {
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+  </style>
